@@ -81,3 +81,8 @@ The model achieved 60% accuracy.
 ![Model_accuracy](https://github.com/Mrigankkh/Facial-Expression-Recogition/blob/main/images/FER_Accuracy.png)
 
 
+
+# Future Goals
+
+I hope to use more complex models to improve the accuracy and create a realtime face detector using webcam
+
