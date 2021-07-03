@@ -34,20 +34,35 @@ ImageGenerator was used for data augmentation i.e. to produce the images at diff
 16 layers were used.
 
 1.Convolution with 16 different filters in size of (3x3)
+
 2. A batch Normalization Layer
+
 3. Max Pooling by 2
+
 4. Convolution with 64 different filters in size of (3x3)
+
 5. Max Pooling by 2
+
 6. Convolution with 128 different filters in size of (3x3)
+
 7. A batch Normalization Layer
+
 8.  Max Pooling by 2
+
 9. Convolution with 256 different filters in size of (3x3)
+
 10. Max Pooling by 2
+
 11. Flattening the 3-D output of the last convolutional operations.
+
 12. Fully Connected Layer with 128 units
+
 13. A dropout layer
+
 14. Fully Connected Layer with 84 units
+
 15. A dropout layer
+
 16. Fully Connected Layer with 7 units
 
 
@@ -60,9 +75,9 @@ I trained this model in an online cloud instance on Google Colab over 50 epochs.
 The model achieved 60% accuracy.
 
 
-![Model_loss](https://user-images.githubusercontent.com/55614154/122716854-6c57a300-d288-11eb-978e-d1d4fb67ae1b.png)
+![Model_loss](https://github.com/Mrigankkh/Facial-Expression-Recogition/blob/main/images/FER_Loss.png)
 
 
-![Model_accuracy](https://user-images.githubusercontent.com/55614154/122716862-6eb9fd00-d288-11eb-9519-f1f56c004631.png)
+![Model_accuracy](https://github.com/Mrigankkh/Facial-Expression-Recogition/blob/main/images/FER_Accuracy.png)
 
 
